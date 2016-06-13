@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48109EED1D0EC6C100A33504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109EEC1D0EC6C100A33504 /* main.m */; };
+		48109EF01D0EC6C100A33504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109EEF1D0EC6C100A33504 /* AppDelegate.m */; };
+		48109EF31D0EC6C100A33504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109EF21D0EC6C100A33504 /* ViewController.m */; };
+		48109EF61D0EC6C100A33504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48109EF41D0EC6C100A33504 /* Main.storyboard */; };
+		48109EF81D0EC6C100A33504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48109EF71D0EC6C100A33504 /* Assets.xcassets */; };
+		48109EFB1D0EC6C100A33504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48109EF91D0EC6C100A33504 /* LaunchScreen.storyboard */; };
+		48109F061D0EC6C100A33504 /* SGDCalloutButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109F051D0EC6C100A33504 /* SGDCalloutButtonTests.m */; };
+		48109F111D0EC6C100A33504 /* SGDCalloutButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109F101D0EC6C100A33504 /* SGDCalloutButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48109F021D0EC6C100A33504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48109EE01D0EC6C100A33504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48109EE71D0EC6C100A33504;
+			remoteInfo = SGDCalloutButton;
+		};
+		48109F0D1D0EC6C100A33504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48109EE01D0EC6C100A33504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48109EE71D0EC6C100A33504;
+			remoteInfo = SGDCalloutButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48109EE81D0EC6C100A33504 /* SGDCalloutButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGDCalloutButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48109EEC1D0EC6C100A33504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48109EEE1D0EC6C100A33504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48109EEF1D0EC6C100A33504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48109EF11D0EC6C100A33504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48109EF21D0EC6C100A33504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48109EF51D0EC6C100A33504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48109EF71D0EC6C100A33504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48109EFA1D0EC6C100A33504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48109EFC1D0EC6C100A33504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48109F011D0EC6C100A33504 /* SGDCalloutButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGDCalloutButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48109F051D0EC6C100A33504 /* SGDCalloutButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGDCalloutButtonTests.m; sourceTree = "<group>"; };
+		48109F071D0EC6C100A33504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48109F0C1D0EC6C100A33504 /* SGDCalloutButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGDCalloutButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48109F101D0EC6C100A33504 /* SGDCalloutButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGDCalloutButtonUITests.m; sourceTree = "<group>"; };
+		48109F121D0EC6C100A33504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48109EE51D0EC6C100A33504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EFE1D0EC6C100A33504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109F091D0EC6C100A33504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48109EDF1D0EC6C100A33504 = {
+			isa = PBXGroup;
+			children = (
+				48109EEA1D0EC6C100A33504 /* SGDCalloutButton */,
+				48109F041D0EC6C100A33504 /* SGDCalloutButtonTests */,
+				48109F0F1D0EC6C100A33504 /* SGDCalloutButtonUITests */,
+				48109EE91D0EC6C100A33504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48109EE91D0EC6C100A33504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48109EE81D0EC6C100A33504 /* SGDCalloutButton.app */,
+				48109F011D0EC6C100A33504 /* SGDCalloutButtonTests.xctest */,
+				48109F0C1D0EC6C100A33504 /* SGDCalloutButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48109EEA1D0EC6C100A33504 /* SGDCalloutButton */ = {
+			isa = PBXGroup;
+			children = (
+				48109EEE1D0EC6C100A33504 /* AppDelegate.h */,
+				48109EEF1D0EC6C100A33504 /* AppDelegate.m */,
+				48109EF11D0EC6C100A33504 /* ViewController.h */,
+				48109EF21D0EC6C100A33504 /* ViewController.m */,
+				48109EF41D0EC6C100A33504 /* Main.storyboard */,
+				48109EF71D0EC6C100A33504 /* Assets.xcassets */,
+				48109EF91D0EC6C100A33504 /* LaunchScreen.storyboard */,
+				48109EFC1D0EC6C100A33504 /* Info.plist */,
+				48109EEB1D0EC6C100A33504 /* Supporting Files */,
+			);
+			path = SGDCalloutButton;
+			sourceTree = "<group>";
+		};
+		48109EEB1D0EC6C100A33504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48109EEC1D0EC6C100A33504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48109F041D0EC6C100A33504 /* SGDCalloutButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				48109F051D0EC6C100A33504 /* SGDCalloutButtonTests.m */,
+				48109F071D0EC6C100A33504 /* Info.plist */,
+			);
+			path = SGDCalloutButtonTests;
+			sourceTree = "<group>";
+		};
+		48109F0F1D0EC6C100A33504 /* SGDCalloutButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48109F101D0EC6C100A33504 /* SGDCalloutButtonUITests.m */,
+				48109F121D0EC6C100A33504 /* Info.plist */,
+			);
+			path = SGDCalloutButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48109EE71D0EC6C100A33504 /* SGDCalloutButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48109F151D0EC6C100A33504 /* Build configuration list for PBXNativeTarget "SGDCalloutButton" */;
+			buildPhases = (
+				48109EE41D0EC6C100A33504 /* Sources */,
+				48109EE51D0EC6C100A33504 /* Frameworks */,
+				48109EE61D0EC6C100A33504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGDCalloutButton;
+			productName = SGDCalloutButton;
+			productReference = 48109EE81D0EC6C100A33504 /* SGDCalloutButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48109F001D0EC6C100A33504 /* SGDCalloutButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48109F181D0EC6C100A33504 /* Build configuration list for PBXNativeTarget "SGDCalloutButtonTests" */;
+			buildPhases = (
+				48109EFD1D0EC6C100A33504 /* Sources */,
+				48109EFE1D0EC6C100A33504 /* Frameworks */,
+				48109EFF1D0EC6C100A33504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48109F031D0EC6C100A33504 /* PBXTargetDependency */,
+			);
+			name = SGDCalloutButtonTests;
+			productName = SGDCalloutButtonTests;
+			productReference = 48109F011D0EC6C100A33504 /* SGDCalloutButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48109F0B1D0EC6C100A33504 /* SGDCalloutButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48109F1B1D0EC6C100A33504 /* Build configuration list for PBXNativeTarget "SGDCalloutButtonUITests" */;
+			buildPhases = (
+				48109F081D0EC6C100A33504 /* Sources */,
+				48109F091D0EC6C100A33504 /* Frameworks */,
+				48109F0A1D0EC6C100A33504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48109F0E1D0EC6C100A33504 /* PBXTargetDependency */,
+			);
+			name = SGDCalloutButtonUITests;
+			productName = SGDCalloutButtonUITests;
+			productReference = 48109F0C1D0EC6C100A33504 /* SGDCalloutButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48109EE01D0EC6C100A33504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shubham Daramwar";
+				TargetAttributes = {
+					48109EE71D0EC6C100A33504 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					48109F001D0EC6C100A33504 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 48109EE71D0EC6C100A33504;
+					};
+					48109F0B1D0EC6C100A33504 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 48109EE71D0EC6C100A33504;
+					};
+				};
+			};
+			buildConfigurationList = 48109EE31D0EC6C100A33504 /* Build configuration list for PBXProject "SGDCalloutButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48109EDF1D0EC6C100A33504;
+			productRefGroup = 48109EE91D0EC6C100A33504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48109EE71D0EC6C100A33504 /* SGDCalloutButton */,
+				48109F001D0EC6C100A33504 /* SGDCalloutButtonTests */,
+				48109F0B1D0EC6C100A33504 /* SGDCalloutButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48109EE61D0EC6C100A33504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109EFB1D0EC6C100A33504 /* LaunchScreen.storyboard in Resources */,
+				48109EF81D0EC6C100A33504 /* Assets.xcassets in Resources */,
+				48109EF61D0EC6C100A33504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EFF1D0EC6C100A33504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109F0A1D0EC6C100A33504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48109EE41D0EC6C100A33504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109EF31D0EC6C100A33504 /* ViewController.m in Sources */,
+				48109EF01D0EC6C100A33504 /* AppDelegate.m in Sources */,
+				48109EED1D0EC6C100A33504 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EFD1D0EC6C100A33504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109F061D0EC6C100A33504 /* SGDCalloutButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109F081D0EC6C100A33504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109F111D0EC6C100A33504 /* SGDCalloutButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48109F031D0EC6C100A33504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48109EE71D0EC6C100A33504 /* SGDCalloutButton */;
+			targetProxy = 48109F021D0EC6C100A33504 /* PBXContainerItemProxy */;
+		};
+		48109F0E1D0EC6C100A33504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48109EE71D0EC6C100A33504 /* SGDCalloutButton */;
+			targetProxy = 48109F0D1D0EC6C100A33504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48109EF41D0EC6C100A33504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48109EF51D0EC6C100A33504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48109EF91D0EC6C100A33504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48109EFA1D0EC6C100A33504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48109F131D0EC6C100A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48109F141D0EC6C100A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48109F161D0EC6C100A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGDCalloutButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDCalloutButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48109F171D0EC6C100A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGDCalloutButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDCalloutButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48109F191D0EC6C100A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGDCalloutButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDCalloutButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGDCalloutButton.app/SGDCalloutButton";
+			};
+			name = Debug;
+		};
+		48109F1A1D0EC6C100A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGDCalloutButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDCalloutButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGDCalloutButton.app/SGDCalloutButton";
+			};
+			name = Release;
+		};
+		48109F1C1D0EC6C100A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGDCalloutButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDCalloutButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGDCalloutButton;
+			};
+			name = Debug;
+		};
+		48109F1D1D0EC6C100A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGDCalloutButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDCalloutButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGDCalloutButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48109EE31D0EC6C100A33504 /* Build configuration list for PBXProject "SGDCalloutButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109F131D0EC6C100A33504 /* Debug */,
+				48109F141D0EC6C100A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48109F151D0EC6C100A33504 /* Build configuration list for PBXNativeTarget "SGDCalloutButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109F161D0EC6C100A33504 /* Debug */,
+				48109F171D0EC6C100A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48109F181D0EC6C100A33504 /* Build configuration list for PBXNativeTarget "SGDCalloutButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109F191D0EC6C100A33504 /* Debug */,
+				48109F1A1D0EC6C100A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48109F1B1D0EC6C100A33504 /* Build configuration list for PBXNativeTarget "SGDCalloutButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109F1C1D0EC6C100A33504 /* Debug */,
+				48109F1D1D0EC6C100A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48109EE01D0EC6C100A33504 /* Project object */;
+}
