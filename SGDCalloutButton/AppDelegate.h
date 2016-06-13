@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  SGDCalloutButton
 //
-//  Created by Laxman Murugappan on 6/13/16.
+//  Created by Shubham Daramwar on 6/13/16.
 //  Copyright © 2016 Shubham Daramwar. All rights reserved.
 //
 
